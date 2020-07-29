@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>io.fission</groupId>
-  <artifactId>fission-java-core</artifactId>
+  <artifactId>fission-java-spring</artifactId>
   <version>0.0.1</version>
   <packaging>jar</packaging>
   
@@ -36,6 +36,4 @@
 		    <scope>provided</scope>
 		</dependency>
     </dependencies>
-
-
 </project>
