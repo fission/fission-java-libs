@@ -8,7 +8,7 @@
 
   <name>Fission java library</name>
   <description>
-    A library for writing Fission functions using JVM runtime
+    A library for writing Fission functions using JVM runtime and Jersey server
   </description>
   <url>https://fission.io/</url>
   <licenses>
@@ -41,4 +41,16 @@
       <version>2.0</version>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>fission-sonatype</id>
+      <name>Fission OSS Sonatype Repo</name>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+      <layout>default</layout>
+    </repository>
+  </distributionManagement>
+
+
 </project>
